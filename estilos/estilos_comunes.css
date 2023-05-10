@@ -1,0 +1,230 @@
+/* Andamios */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;900&display=swap');
+
+.cuadrado {
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:springgreen;
+}
+
+.rectangulo {
+    display: block;
+    width: 300px;
+    height: 50px;
+    background-color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:tomato;
+}
+
+.big_rectangulo {
+    position: relative;
+    width: 350px;
+    height: 150px;
+    padding-top: 20px;
+}
+.linea-uno{
+    position: absolute;
+    color: #fff;
+}
+.linea-dos{
+    position: absolute;
+    color: #fff;
+    top: 30%;
+}
+.linea-tres{
+    position: absolute;
+    color: #fff;
+    top: 48%;
+}
+.menu-inf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+.menu-inf:hover{
+    color: #000;
+}
+.big_rectangulo button{
+    position: absolute;
+    align-items: center;
+    background-color: #353535;
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-style: none;
+    width: 25px;
+    height: 25px;
+}
+.big_rectangulo button:hover{
+    cursor: pointer;
+}
+.fb{
+    background-image: url(../img/facebook.png);
+    top: 25%;
+}
+.git{
+    background-image: url(../img/github.png);
+    top: 25%;
+    left: 25%;
+}
+.tw{
+    background-image: url(../img/twitter.png);
+    top: 25%;
+    left: 50%;
+}
+.ig{
+    background-image: url(../img/instagram.png);
+    top: 25%;
+    left: 75%;
+}
+
+/* Fin andamios */
+
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+body {
+    margin: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.menu_superior {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu_superior * {
+    margin: 5px 0;
+}
+.menu_superior input{
+    background-image: url(../img/lupa.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+    box-sizing: border-box;
+    padding-right: 10px;
+    border-radius: 3px;
+}
+
+.menu_inferior {
+    display: flex;
+    justify-content:space-around;
+}
+.menu_inferior a{
+    padding: 10px;
+}
+
+.menu_inferior * {
+    margin: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu_inferior a:hover {
+    text-decoration: underline;
+    background-color: #20717841;
+}
+.carrito{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/carrito2.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+}
+.numero-carrito{
+    position: absolute;
+    background-color: #207178;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 800;
+    text-align: center;
+    color: #fff;
+    left: 65%;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #353535;
+    margin-top: 60px;
+}
+
+.footer * {
+    margin: 10px;
+}
+
+.tarjeta_curso {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 25px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.tarjeta_curso .precio {
+    align-self: self-end;
+    position: relative;
+    bottom: 25px;
+    padding: 1px;
+    background-color: red;
+    color: white;
+}
+
+.tarjeta_curso div {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.tarjeta_curso div * {
+    margin: 5px 0;
+}
+
+.tarjeta_curso a{
+    align-self: self-end;
+    margin: 5px 0;
+}
+
+.tarjeta_curso .detalles {
+    color: black;
+}
+
+.tarjeta_curso .compra {
+    background-color: gray;
+    border-radius: 2px;
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+}
+.inicio{
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-color: #207178;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+    background-image: url(../img/arriba.png);
+    background-size: cover;
+    position: fixed;
+    z-index: 100;
+    bottom: 5px;
+    right: 5px;
+    transition: 0.5s;
+}

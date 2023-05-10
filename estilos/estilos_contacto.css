@@ -1,0 +1,52 @@
+/* ANDAMIOS */
+
+#contacto_andamio {
+    width: 300px;
+    height: 350px;
+    background-color: grey;
+    color:aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FIN ANDAMIOS */
+
+h2 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.datos {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.datos * {
+    padding: 0 10px;
+}
+
+.formulario {
+    display: flex;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.boton{
+    background-color: #237178;
+    color: #fff;
+    border-radius: 5px;
+    border-style: none;
+    width: 25%;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.ubicacion {
+    display: flex;
+    justify-content: center;
+}
